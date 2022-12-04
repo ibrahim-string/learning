@@ -9,7 +9,7 @@ int pop(int top);
 int push(int val);
 void dis();
 int top=-1;
-int a[4];
+int a[5];
 int main(){
     int val;
     int t=4;
@@ -58,7 +58,7 @@ int pop(int top){
     }
 }
 int push(int val){
-    if (top==-1)            
+    if (top==4)            
     {
         printf("Stackoverflow!");
     }
